@@ -1,3 +1,2 @@
-#!/bin/bash
-# List all databases
+// This script lists all databases MongoDB
 echo 'show dbs' | mongo
