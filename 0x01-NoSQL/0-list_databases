@@ -1,2 +1,2 @@
-// This script lists all databases MongoDB
-echo 'show dbs' | mongo
+// This script lists all databases in MongoDB
+db.adminCommand( { listDatabases: 1 } )
