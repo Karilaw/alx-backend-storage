@@ -1,3 +1,2 @@
-#!/bin/bash
-# This script creates or uses the database my_db in MongoDB
-echo 'use my_db' | mongo
+// Database
+use my_db
